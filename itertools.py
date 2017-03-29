@@ -9,14 +9,14 @@ if __name__ == '__main__':
     # A = [1, 1, 3, 3, 3]
     # print(list(combinations(A, 2)))
 
-    text = input("Please enter:\n")
+    text = raw_input("Please enter:\n")
     words = text.split(" ")
     str1 = words[0]
     str2 = words[1]
     number = int(float(str2))
 
-    list = sorted(str1)
-    new_str = ''.join(list)
+    str_list = sorted(str1)
+    new_str = ''.join(str_list)
     # new_str = ''
     # for i in str_sort:
     #     new_str = new_str + i
