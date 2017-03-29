@@ -5,11 +5,10 @@ from itertools import combinations
 
 if __name__ == '__main__':
     # print(list(combinations_with_replacement('12345',2)))
-    # 上面这行可以运行，但是挪到下面去就不能运行
     # A = [1, 1, 3, 3, 3]
     # print(list(combinations(A, 2)))
 
-    text = input("Please enter:\n")
+    text = input("Please enter: HACK 2\n")
     words = text.split(" ")
     str1 = words[0]
     str2 = words[1]
@@ -20,7 +19,8 @@ if __name__ == '__main__':
     # new_str = ''
     # for i in str_sort:
     #     new_str = new_str + i
-    print(new_str)
-    # print(list(combinations_with_replacement('12345', 2)))
-    print(list(combinations_with_replacement(new_str, number)))
-    # 运行出错，并且改参数也出错
+    res = list(combinations_with_replacement(new_str, number))
+    n = len(res)
+    for i in range(0,n):
+        res0 = ''.join(res[i])
+        print(res0)
