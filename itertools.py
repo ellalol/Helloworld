@@ -1,4 +1,5 @@
 # https://www.hackerrank.com/challenges/itertools-combinations-with-replacement?h_r=next-challenge&h_v=zen
+#coding:utf-8
 from __future__ import print_function
 from itertools import combinations_with_replacement
 from itertools import combinations
