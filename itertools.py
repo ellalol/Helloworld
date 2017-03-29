@@ -4,7 +4,7 @@ from itertools import combinations_with_replacement
 from itertools import combinations
 
 if __name__ == '__main__':
-    # print(list(combinations_with_replacement('12345',2)))
+    print(list(combinations_with_replacement('12345',2)))
     # 上面这行可以运行，但是挪到下面去就不能运行
     # A = [1, 1, 3, 3, 3]
     # print(list(combinations(A, 2)))
@@ -21,6 +21,6 @@ if __name__ == '__main__':
     # for i in str_sort:
     #     new_str = new_str + i
     print(new_str)
-    print(list(combinations_with_replacement('12345', 2)))
+    # print(list(combinations_with_replacement('12345', 2)))
     print(list(combinations_with_replacement(new_str, number)))
     # 运行出错，并且改参数也出错
