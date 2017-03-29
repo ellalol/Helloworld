@@ -1,9 +1,11 @@
+# https://www.hackerrank.com/challenges/itertools-combinations-with-replacement?h_r=next-challenge&h_v=zen
 from __future__ import print_function
 from itertools import combinations_with_replacement
 from itertools import combinations
 
 if __name__ == '__main__':
     # print(list(combinations_with_replacement('12345',2)))
+    # 上面这行可以运行，但是挪到下面去就不能运行
     # A = [1, 1, 3, 3, 3]
     # print(list(combinations(A, 2)))
 
@@ -21,4 +23,4 @@ if __name__ == '__main__':
     print(new_str)
     print(list(combinations_with_replacement('12345', 2)))
     print(list(combinations_with_replacement(new_str, number)))
-    # print(list(combinations_with_replacement(new_str, number)))
+    # 运行出错，并且改参数也出错
